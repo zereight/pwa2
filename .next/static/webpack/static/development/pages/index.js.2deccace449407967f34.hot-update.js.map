@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/index.js.2deccace449407967f34.hot-update.js","sources":["webpack:///./pages/index.js"],"sourcesContent":["export default () => <h1>Hello from the index</h1>;\n\nconsole.log(\"hello\")"],"mappings":";;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAEA;;;;A","sourceRoot":""}
