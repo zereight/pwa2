@@ -7,11 +7,12 @@
     "express": "^4.16.4",
     "next": "^8.0.3",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "yarn": "^1.15.2"
   },
   "scripts": {
-    "dev": "node server",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server"
+    "start": "NODE_ENV=production node server.js"
   }
 }

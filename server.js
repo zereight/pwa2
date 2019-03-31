@@ -1,7 +1,7 @@
 const express = require("express");
 const next = require("next");
 
-const Isdev = process.env.NODE_ENV != "production"; //서버가 development인지 production인지 판단합니다. (production서버는 많은 정보를 담아두지 않습니다.)
+const Isdev = process.env.NODE_ENV !== "production"; //서버가 development인지 production인지 판단합니다. (production서버는 많은 정보를 담아두지 않습니다.)
 //서버가 production상태가 아니면 Isdev는 1입니다.
 
 const app = next({ //next앱을 생성합니다.
@@ -16,8 +16,16 @@ app
 .prepare().then( () => {
 
     const server = express(); //서버는 express서버를 사용하겠습니다.
+
+    server.get("/post/:id", (req, res) => { //id param을 감지합니다.
+        const actualPage = "/post";
+        const queryParams = { title: req.params.id }; //감지한 id param을 다시 title에 대입합니다. 여기서 title은 props.router.query.title 의 그 title입니다.
+        app.render(req, res, actualPage, queryParams);
+      });
+
+
     server.get("*", (req,res) => {  //*는 서버로 부터 보든 정보를 받겠습니다. 2번쨰 인자인 함수는 콜백함수입니다.
-        return handle(res,res); //handle에게 넘겨줍니다.
+        return handle(req,res); //handle에게 넘겨줍니다.
     } );
 
     server.listen(3000, err => { 
@@ -28,7 +36,7 @@ app
     });
 
 } ).catch(ex => { //에러발생되면
-    console.log(ex); //출력하고
+    console.log(ex.stack); //출력하고
     process.exit(1); //프로세스종료
 });
 
