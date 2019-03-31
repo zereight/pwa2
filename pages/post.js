@@ -1,6 +1,6 @@
 import withLayout from "../lib/withLayout";
 import Head from 'next/head';
-import {withRouter} from "next/router";
+import {withRouter} from "next/router"; //withRouter는 url의 query를 받아올 수 있다.
 
 const Post = (props) => (
     <div>
@@ -13,4 +13,4 @@ const Post = (props) => (
     </div>
 );
 
-export default withLayout( withRouter(Post) );
+export default withLayout( withRouter(Post) ); 

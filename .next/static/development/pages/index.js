@@ -87,19 +87,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/components/PostLink.js";
 
+ //href는 실제 url이고 as는 router masking 해준 url입니다. 에쁘죠?
+//실제로 접속하면 masking 된 url로 접속되지만 새로고침하면 찾을 수 없는 페이지라고 뜹니다. (server.js에서 해결하자)
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/post?title=".concat(props.title),
+    as: "/post/".concat(props.title),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 8
     },
     __self: this
   }, props.title));
@@ -134,6 +137,7 @@ var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/lib/wit
 
 
 var withLayout = function withLayout(Component) {
+  //Header라는 공통된 코드와 Component인수를 받아서 렌더링해주는 함수.
   return (
     /*#__PURE__*/
     function (_React$Component) {
@@ -10849,6 +10853,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/pages/index.js";
 
+//pages에 있는 js파일들은 실제 페이지로 구동되는 페이지입니다.
 
 
 

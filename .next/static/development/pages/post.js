@@ -99,6 +99,7 @@ var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/lib/wit
 
 
 var withLayout = function withLayout(Component) {
+  //Header라는 공통된 코드와 Component인수를 받아서 렌더링해주는 함수.
   return (
     /*#__PURE__*/
     function (_React$Component) {
@@ -10815,7 +10816,7 @@ var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/pages/p
 
 
 
-
+ //withRouter는 url의 query를 받아올 수 있다.
 
 var Post = function Post(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

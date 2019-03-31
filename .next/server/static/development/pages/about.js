@@ -192,6 +192,7 @@ var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/lib/wit
 
 
 var withLayout = function withLayout(Component) {
+  //Header라는 공통된 코드와 Component인수를 받아서 렌더링해주는 함수.
   return (
     /*#__PURE__*/
     function (_React$Component) {
