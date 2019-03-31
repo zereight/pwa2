@@ -5,6 +5,19 @@ import Link from "next/link";
 
 export default (props) => (
   <Link href={`/post?title=${props.title}`} as={`/post/${props.title}`}> 
-    <a>{props.title}</a>
+    <a>
+      {props.title}
+      <style jsx global>{ //global은 전역이긴한데 모든 페이지에서의 전역이 아니고, 그 페이지의 전역임. 지금 body태그가 없음에도 불구하고 global로 PostLink가 속한 페이지의 body에 속성을 준것임.
+          `
+              body{
+                background-color: red;
+              }
+          `
+      }</style>
+    </a>
+
+    
   </Link>
+ 
+  
 );
