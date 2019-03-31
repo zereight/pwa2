@@ -1,8 +1,9 @@
 import Link from "next/link";
 import Head from "next/head";
-import Header from "../componenets/Header";
+import withLayout from "../lib/withLayout";
 
-export default () => (
+
+const about = ()=>(
 <div>
     <Head>
         <title>
@@ -10,8 +11,8 @@ export default () => (
         </title>
     </Head>
 
-    <Header/>
+    
 
     <h1>This is about page.</h1>
-</div>)
-;
+</div>);
+export default withLayout(about);

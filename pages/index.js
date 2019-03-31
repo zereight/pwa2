@@ -1,16 +1,15 @@
 import Link from "next/link";
 import Head from "next/head";
-import Header from "../componenets/Header";
+import withLayout from "../lib/withLayout";
 
-export default () => (
+
+const index = () => (
 <div>
     <Head>
         <title>
             Home | kdh store
         </title>
     </Head>
-
-    <Header/>
 
     <h1>This is index page.</h1> {" "}
     <Link href={"/about"}>
@@ -20,4 +19,4 @@ export default () => (
 );
 
 
-
+export default withLayout(index);
