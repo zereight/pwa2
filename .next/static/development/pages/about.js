@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/about.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
@@ -6293,21 +6293,21 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Findex.js!./":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Findex.js ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Fabout.js!./":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Fabout.js ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/about", function() {
+      var page = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/about.js */ "./pages/about.js", function() {
+          if(!next.router.components["/about"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
+          next.router.update("/about", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -10651,9 +10651,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/about.js":
 /*!************************!*\
-  !*** ./pages/index.js ***!
+  !*** ./pages/about.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -10666,7 +10666,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-server/head */ "./node_modules/next-server/head.js");
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/pages/index.js";
+var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/pages/about.js";
 
 
 
@@ -10689,38 +10689,25 @@ var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/pages/i
       lineNumber: 7
     },
     __self: this
-  }, "Home | kdh store")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, "About | kdh store")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "This is index page."), " ", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "About page")));
+  }, "This is about page."));
 });
 
 /***/ }),
 
-/***/ 1:
-/*!**************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Findex.js ***!
-  \**************************************************************************************************************************************************************/
+/***/ 2:
+/*!*******************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Fabout.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Fabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2Fhome%2Fuser21511816%2F%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%2Fcode%2Fpwa%2Fpages%2Fabout.js!./");
 
 
 /***/ }),
@@ -10736,5 +10723,5 @@ module.exports = dll_afa7b25a60452594c240;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=index.js.map
+},[[2,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=about.js.map

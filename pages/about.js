@@ -5,15 +5,9 @@ export default () => (
 <div>
     <Head>
         <title>
-            Home | kdh store
+            About | kdh store
         </title>
     </Head>
-    <h1>This is index page.</h1> {" "}
-    <Link href={"/about"}>
-        <a>About page</a>
-    </Link>
-</div>
-);
-
-
-
+    <h1>This is about page.</h1>
+</div>)
+;
