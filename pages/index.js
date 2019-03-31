@@ -1,7 +1,8 @@
-import Link from "next/link";
+
 import Head from "next/head";
 import withLayout from "../lib/withLayout";
-
+import PostLink from "../components/PostLink";
+import Link from "next/link";
 
 const index = () => (
 <div>
@@ -11,10 +12,17 @@ const index = () => (
         </title>
     </Head>
 
-    <h1>This is index page.</h1> {" "}
-    <Link href={"/about"}>
-        <a>About page</a>
-    </Link>
+    <h1>This is index page.</h1>
+    <h3>Posts:</h3>
+    <ul>
+        <li>
+            <PostLink title={"something"}/>
+        </li>
+        <li>
+            <PostLink title={"Post2"}/>
+        </li>
+    </ul>
+
 </div>
 );
 

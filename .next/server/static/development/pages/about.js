@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./componenets/Header.js":
-/*!*******************************!*\
-  !*** ./componenets/Header.js ***!
-  \*******************************/
+/***/ "./components/Header.js":
+/*!******************************!*\
+  !*** ./components/Header.js ***!
+  \******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/componenets/Header.js";
+var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/components/Header.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -181,7 +181,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _componenets_Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../componenets/Header */ "./componenets/Header.js");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
 
 
 
@@ -212,7 +212,7 @@ var withLayout = function withLayout(Component) {
               lineNumber: 9
             },
             __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_componenets_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
+          }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
             __source: {
               fileName: _jsxFileName,
               lineNumber: 10
@@ -1437,13 +1437,10 @@ module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-server/head */ "next-server/head");
-/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _lib_withLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../lib/withLayout */ "./lib/withLayout.js");
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next-server/head */ "next-server/head");
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _lib_withLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/withLayout */ "./lib/withLayout.js");
 var _jsxFileName = "/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/pages/about.js";
-
 
 
 
@@ -1455,7 +1452,7 @@ var about = function about() {
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -1476,7 +1473,7 @@ var about = function about() {
   }, "This is about page."));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_lib_withLayout__WEBPACK_IMPORTED_MODULE_3__["default"])(about));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_lib_withLayout__WEBPACK_IMPORTED_MODULE_2__["default"])(about));
 
 /***/ }),
 
