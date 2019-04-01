@@ -161,13 +161,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/post?title=".concat(props.title),
-    as: "/post/".concat(props.title)
+    href: "/movie?id=".concat(props.id),
+    as: "/movie/".concat(props.id)
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "jsx-3147923523"
+    className: "jsx-1144924393"
   }, props.title, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3147923523"
-  }, "body{background-color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3VzZXIyMTUxMTgxNi/rsJTtg5XtmZTrqbQvY29kZS9wd2EvY29tcG9uZW50cy9Qb3N0TGluay5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVVSxBQUdzQyxxQkFDdkIiLCJmaWxlIjoiL2hvbWUvdXNlcjIxNTExODE2L+uwlO2Dle2ZlOuptC9jb2RlL3B3YS9jb21wb25lbnRzL1Bvc3RMaW5rLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuXG4vL2hyZWbripQg7Iuk7KCcIHVybOydtOqzoCBhc+uKlCByb3V0ZXIgbWFza2luZyDtlbTspIAgdXJs7J6F64uI64ukLiDsl5DsgZjso6A/XG4vL+yLpOygnOuhnCDsoJHsho3tlZjrqbQgbWFza2luZyDrkJwgdXJs66GcIOygkeyGjeuQmOyngOunjCDsg4jroZzqs6DsuajtlZjrqbQg7LC+7J2EIOyImCDsl4bripQg7Y6Y7J207KeA65286rOgIOucueuLiOuLpC4gKHNlcnZlci5qc+yXkOyEnCDtlbTqsrDtlZjsnpApXG5cbmV4cG9ydCBkZWZhdWx0IChwcm9wcykgPT4gKFxuICA8TGluayBocmVmPXtgL3Bvc3Q/dGl0bGU9JHtwcm9wcy50aXRsZX1gfSBhcz17YC9wb3N0LyR7cHJvcHMudGl0bGV9YH0+IFxuICAgIDxhPlxuICAgICAge3Byb3BzLnRpdGxlfVxuICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+eyAvL2dsb2JhbOydgCDsoITsl63snbTquLTtlZzrjbAg66qo65OgIO2OmOydtOyngOyXkOyEnOydmCDsoITsl63snbQg7JWE64uI6rOgLCDqt7gg7Y6Y7J207KeA7J2YIOyghOyXreyehC4g7KeA6riIIGJvZHntg5zqt7jqsIAg7JeG7J2M7JeQ64+EIOu2iOq1rO2VmOqzoCBnbG9iYWzroZwgUG9zdExpbmvqsIAg7IaN7ZWcIO2OmOydtOyngOydmCBib2R57JeQIOyGjeyEseydhCDspIDqsoPsnoQuXG4gICAgICAgICAgYFxuICAgICAgICAgICAgICBib2R5e1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDtcbiAgICAgICAgICAgICAgfVxuICAgICAgICAgIGBcbiAgICAgIH08L3N0eWxlPlxuICAgIDwvYT5cblxuICAgIFxuICA8L0xpbms+XG4gXG4gIFxuKTsiXX0= */\n/*@ sourceURL=/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/components/PostLink.js */")));
+    id: "1144924393"
+  }, "body{background-color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3VzZXIyMTUxMTgxNi/rsJTtg5XtmZTrqbQvY29kZS9wd2EvY29tcG9uZW50cy9Qb3N0TGluay5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVVSxBQUd3Qyx1QkFDekIiLCJmaWxlIjoiL2hvbWUvdXNlcjIxNTExODE2L+uwlO2Dle2ZlOuptC9jb2RlL3B3YS9jb21wb25lbnRzL1Bvc3RMaW5rLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuXG4vL2hyZWbripQg7Iuk7KCcIHVybOydtOqzoCBhc+uKlCByb3V0ZXIgbWFza2luZyDtlbTspIAgdXJs7J6F64uI64ukLiDsl5DsgZjso6A/XG4vL+yLpOygnOuhnCDsoJHsho3tlZjrqbQgbWFza2luZyDrkJwgdXJs66GcIOygkeyGjeuQmOyngOunjCDsg4jroZzqs6DsuajtlZjrqbQg7LC+7J2EIOyImCDsl4bripQg7Y6Y7J207KeA65286rOgIOucueuLiOuLpC4gKHNlcnZlci5qc+yXkOyEnCDtlbTqsrDtlZjsnpApXG5cbmV4cG9ydCBkZWZhdWx0IChwcm9wcykgPT4gKFxuICA8TGluayBocmVmPXtgL21vdmllP2lkPSR7cHJvcHMuaWR9YH0gYXM9e2AvbW92aWUvJHtwcm9wcy5pZH1gfT4gXG4gICAgPGE+XG4gICAgICB7cHJvcHMudGl0bGV9XG4gICAgICA8c3R5bGUganN4IGdsb2JhbD57IC8vZ2xvYmFs7J2AIOyghOyXreydtOq4tO2VnOuNsCDrqqjrk6Ag7Y6Y7J207KeA7JeQ7ISc7J2YIOyghOyXreydtCDslYTri4jqs6AsIOq3uCDtjpjsnbTsp4DsnZgg7KCE7Jet7J6ELiDsp4DquIggYm9kee2DnOq3uOqwgCDsl4bsnYzsl5Drj4Qg67aI6rWs7ZWY6rOgIGdsb2JhbOuhnCBQb3N0TGlua+qwgCDsho3tlZwg7Y6Y7J207KeA7J2YIGJvZHnsl5Ag7IaN7ISx7J2EIOykgOqyg+yehC5cbiAgICAgICAgICBgXG4gICAgICAgICAgICAgIGJvZHl7XG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gICAgICAgICAgICAgIH1cbiAgICAgICAgICBgXG4gICAgICB9PC9zdHlsZT5cbiAgICA8L2E+XG5cbiAgICBcbiAgPC9MaW5rPlxuIFxuICBcbik7Il19 */\n/*@ sourceURL=/home/user21511816/\uBC14\uD0D5\uD654\uBA74/code/pwa/components/PostLink.js */")));
 });
 
 /***/ }),
@@ -2177,24 +2177,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_withLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/withLayout */ "./lib/withLayout.js");
 /* harmony import */ var _components_PostLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PostLink */ "./components/PostLink.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 
 //pages에 있는 js파일들은 실제 페이지로 구동되는 페이지입니다.
 
 
 
-
-
-var index = function index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Home | kdh store")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "This is index page."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Posts:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PostLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "something"
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Home | kdh store")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "This is Movies page."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Posts:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PostLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "something",
+    id: 0
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PostLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "Post2"
+    title: "Post2",
+    id: 1
   }))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(_lib_withLayout__WEBPACK_IMPORTED_MODULE_2__["default"])(index));
+});
 
 /***/ }),
 

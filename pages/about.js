@@ -3,7 +3,7 @@ import Head from "next/head";
 import withLayout from "../lib/withLayout";
 
 
-const about = ()=>(
+export default () => (
 <div>
     <Head>
         <title>
@@ -15,4 +15,3 @@ const about = ()=>(
 
     <h1>This is about page.</h1>
 </div>);
-export default withLayout(about);

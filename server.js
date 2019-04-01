@@ -17,9 +17,9 @@ app
 
     const server = express(); //서버는 express서버를 사용하겠습니다.
 
-    server.get("/post/:id", (req, res) => { //id param을 감지합니다.
-        const actualPage = "/post";
-        const queryParams = { title: req.params.id }; //감지한 id param을 다시 title에 대입합니다. 여기서 title은 props.router.query.title 의 그 title입니다.
+    server.get("/movie/:id", (req, res) => { //id param을 감지합니다.
+        const actualPage = "/movie"; //실제로 보여줄 페이지입니다.
+        const queryParams = { id: req.params.id }; //감지한 id param을 다시 movie 대입합니다. 여기서 movie props.router.query.movie 의 그 movie입니다.
         app.render(req, res, actualPage, queryParams);
       });
 
