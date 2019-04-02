@@ -1,6 +1,6 @@
 //pages에 있는 js파일들은 실제 페이지로 구동되는 페이지입니다.
 import Head from "next/head";
-import withLayout from "../lib/withLayout";
+
 import PostLink from "../components/PostLink";
 
 export default () => (
