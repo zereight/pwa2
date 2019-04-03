@@ -7,14 +7,26 @@ import React from "react";
 
 
 export default class MyApp extends App { //App은 nextjs의 가장 기본이 되는 메인 페이지이다. withLayout같은거 필요없었다.
+
+    static async getInitialProps( {Component, router, context } ){
+
+        let pageProps = {};
+        if( Component.getInitialProps ){
+            pageProps = await Component.getInitialProps( context );
+        }
+
+        return {pageProps};
+1
+    }
+
     render(){
 
-        const {Component} = this.props;
+        const {Component, pageProps} = this.props;
         return (
             //여기서 메세지를 입력하면 모든 페이지의 맨 위에서 요소가 나타난다.
             <Container>
                 <Header/>
-                <Component/>
+                <Component {...pageProps} />
             </Container>
         );
 
